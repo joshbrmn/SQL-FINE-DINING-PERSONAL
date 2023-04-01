@@ -197,6 +197,10 @@ CALL TP_Q9;
 # Query 10
 #This query allows us to figure out how many employees we have in each position. By knowing this we can figure out how well we operate with a specific amount of employees. If we are not operating as well as we should and see that one group does not have enough employees and hire more. We did this by using case when statements for each of the different employee types.
 
+<img width="412" alt="m10" src="https://user-images.githubusercontent.com/129557979/229257397-dda73e60-4c74-4c90-873b-867901a9c391.png">
+
+
+
 PROCEDURE CALL TP_Q10()
 SELECT 
 COUNT(CASE WHEN employeeTitle REGEXP("Chef") THEN employeeTitle END) AS "Chef", 
