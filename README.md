@@ -197,8 +197,6 @@ CALL TP_Q9;
 # Query 10
 #This query allows us to figure out how many employees we have in each position. By knowing this we can figure out how well we operate with a specific amount of employees. If we are not operating as well as we should and see that one group does not have enough employees and hire more. We did this by using case when statements for each of the different employee types.
 
-<img width="412" alt="m10" src="https://user-images.githubusercontent.com/129557979/229257397-dda73e60-4c74-4c90-873b-867901a9c391.png">
-
 
 
 PROCEDURE CALL TP_Q10()
@@ -213,10 +211,11 @@ CALL TP_Q10;
 
 <img width="263" alt="Q10" src="https://user-images.githubusercontent.com/129557979/229248791-d29fb746-5d16-4fd4-8c2f-9dc438cdc590.png">
 
+<img width="412" alt="m10" src="https://user-images.githubusercontent.com/129557979/229257397-dda73e60-4c74-4c90-873b-867901a9c391.png">
+
 # Total Database Code
 
 USE ns_21482_5;
-
 
 
 insert into Customers (customerID, customerName, customerPhone, customerPaymentInfo, restaurantID, cateringID, eventID) values ('90895', 'Merrielle Mucci', '899-598-0268', '5048377171302941', '76005', NULL, NULL);
