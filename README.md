@@ -2,7 +2,7 @@
 SQL fine dining database project
 
 # Members
-Christian Myrie,Ben Satinoff, Josh Berman, Chandler Denton 
+Christian Myrie,Ben Satinoff https://github.com/bss63709/SQL-Fine-Dining-/blob/main/README.md, Josh Berman, Chandler Denton https://github.com/cld39518/SQL-Fine-Dining-/blob/main/README.md
 
 # About Us
 We’re an upscale, fine dining restaurant that is reservation only. We occasionally lease out our space for guests to hosts events and entertainment, and we also offer catering services. We have six different restauraunt locations. Our data model displays the functions of our Fine Dining, reservation only, 6 restaurant franchise. To increase sales for our company and grow our customer demographic, our CEO decided to implement catering services with its own specific menu. Additionally, due to our CEO’s love for nonprofits, he allows one non-profit to use the restaurant to host a nonprofit event, free of charge. In the near future, we look to expand into takeout ordering for our customers as well as bringing our “classic sauce” to grocery stores by branding it.
@@ -211,6 +211,7 @@ CALL TP_Q10;
 
 <img width="263" alt="Q10" src="https://user-images.githubusercontent.com/129557979/229248791-d29fb746-5d16-4fd4-8c2f-9dc438cdc590.png">
 
+# Matrix Table
 <img width="412" alt="m10" src="https://user-images.githubusercontent.com/129557979/229257397-dda73e60-4c74-4c90-873b-867901a9c391.png">
 
 # Total Database Code
